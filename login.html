@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
-	
-<a href="ssection.html"><h1>  SECURITY SECTION</h1></a>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style type="text/css">
+       .rectBox{
+        height: 100px; 
+        background-color:  #4ce600;//#ff8c1a; 
+        border : 1px solid white; 
+        text-align: center; 
+        border-radius: 125px;
+        padding-top: 30px;
+        font-size : 25px;
+        box-shadow: 10px 10px 5px grey;
+        z-index: -1; /* hide shadow behind image */
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+        //font-family: Lobster;
+        color: white;
+       }
+       .BG{
+        background-image: url('./img/sky.png');
+          //background-color: black;
+       }
+       a{
+        color : white;
+        text-decoration: none;
+       }
+       a:hover{
+        color: black;
+        text-decoration: none;
+       }
+     </style>
+  </head>
+  <body class = "BG">
+    <div class="container-fluid" style = "margin: 10% 10%;">
+      <h1 style = "text-align: center; font-family: Orbitron;">LOGIN</h1>
 
-</body>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <br>
+          <div class = "rectBox"> 
+            <a href = "forStudents.html">For Students</a>
+          </div>
+        </div>
+        <div class="col-sm-4" >
+          <br>
+          <div class = "rectBox""> 
+            <a href = "forGuards.html">For Guards</a>
+          </div>
+        </div>
+        <div class="col-sm-4" >
+          <br>
+          <div class = "rectBox"> 
+            <a href = "forSS.html">For Security Section</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style = "text-align: center;margin: 10% 10%;">
+      <span style = "font-size : 25px"><b>Are you a student and don't already have an account? Sign Up !</b></span><br><br>
+      <a href = "register.html"><button class = "btn btn-danger" >Sign Up</button></a>
+    </div>
+  </body>
 </html>
-
